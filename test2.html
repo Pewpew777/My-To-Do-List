@@ -1,0 +1,57 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do list</title>
+  <link rel="stylesheet" href="test2.css">
+   <script src="https://kit.fontawesome.com/5b6583c5a5.js" crossorigin="anonymous"></script> 
+   
+   <!-- main firebase JS SDK  -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+<!-- include firebase database -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+
+
+
+</head>
+<body>
+  <div class="container">
+    <h1>My To-Do List </h1>
+    <form id="task-form">
+      <select id="status" >
+        <option value="open">Open</option>
+        <option value="in progress">In Progress</option>
+        <option value="finished">Finished</option>
+       
+      </select>
+      <input class="input" type="text" id="task" placeholder=" Enter Task">
+      <input class="input" type="text" id="description" placeholder="Enter Description">
+      <button class="add">Add</button>
+    </form>
+    <div class="stitle">
+      <h2>Tasks:</h2>
+      <div id="blabla"><button class="team">Team's tasks</button><button class="mine">My Tasks</button></div>
+      <hr class="line">
+    </div>
+    
+    <div class="filters">
+      
+      <button class="filter-btn" data-status="all">All</button>
+      <button class="filter-btn" data-status="open">Open</button>
+      <button class="filter-btn" data-status="in progress">In Progress</button>
+      <button class="filter-btn" data-status="finished">Finished</button>
+      
+    </div>
+    <ul id="task-list"></ul>
+  </div>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1.0/firebase.js></script>
+  <script type="module" src="test2.js"></script>
+
+</body>
+</html>

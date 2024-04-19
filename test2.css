@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background: linear-gradient(45deg, #78ff73, #ba2d65, #6236c8, #2a11ba); */
+  /* background
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  filter: grayscale(30%) brightness(90%); */
+}
+  
+.container {
+  padding-top:  30px;
+  max-width: 600px;
+  margin: 20px auto;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button, select {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 11px;
+}
+input{
+  border: solid 2px rgb(255, 146, 188);
+  border-radius: 11px;
+
+}
+input:hover {
+  outline: 1px solid rgb(255, 101, 242); 
+}
+select, button{
+  background-color: rgb(245, 110, 132);
+  color: white;
+  border: none;
+}
+button{
+  transition: background-color 0.3s ease;
+
+}
+#blabla{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(224, 81, 105);
+}
+.delete-btn{
+background-color: rgb(221, 39, 70);
+}
+.active{
+  background-color:rgb(202, 24, 54);
+}
+.active:hover{
+  cursor: pointer;
+  background-color:rgb(202, 24, 54);
+}
+.delete-btn:hover{
+  cursor: pointer;
+  background-color:rgb(202, 24, 54) ;
+}
+.selected{
+  background-color: rgb(224, 81, 105);
+}
+.filters {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.filter-btn {
+  margin-right: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: solid 2px rgb(250, 179, 208);
+  border-radius: 11px;
+  padding: 10px;
+  padding-left: 20px;
+  
+}
+
+.wee{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.buttons{
+  display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+  margin-left: auto; 
+}
+.buttons button{
+margin-left: 5px;
+border-radius: 40%;
+
+}
+.complete_checkbox{
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+.stitle h2{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+}
+.line{
+    width: 20%; 
+    border: none;
+    height: 2px; 
+    background-color: #999;
+}
+.completed .wee {
+  text-decoration: line-through;
+}
+li{
+display: flex;
+font-size: 15px;
+flex-wrap: wrap;
+gap: 4px;
+align-items: center;
+
+
+}  
+#no-items{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: 600;
+  color: #5f5f5f;
+}
+@media (max-width:665px){
+body{
+  padding: 30px;
+}
+h1{
+  font-size: 28px;
+}
+#status{
+  padding: 8px;
+}
+.input{
+ padding: 8px;
+}
+li{
+  display: flex;
+  font-size: 15px;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+} 
+li button{
+  padding: 8px;
+  font-size: 12px;
+
+}
+li .complete_checkbox{
+  width: 16px;
+  height: 16px;
+}
+button{
+  padding: 7px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.add{
+  padding: 8px;
+  font-size: 15px;
+}
+}
+  
