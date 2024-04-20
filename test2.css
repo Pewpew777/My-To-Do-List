@@ -167,7 +167,7 @@ align-items: center;
 }
 @media (max-width:665px){
 body{
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 h1{

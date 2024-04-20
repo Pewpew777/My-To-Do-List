@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const li = document.createElement('li');
       li.innerHTML = `<div class="wee"><strong>${task.task}: </strong> ${task.description}</div>
         <div class="buttons"><input type="checkbox" class="complete_checkbox" ${task.status === 'finished' ? 'checked' : ''}> <button class="update-btn"><i class="fa-regular fa-pen-to-square"></i></button>
-        <button class="delete-btn"><i the "fa-solid fa-x"></i></button></div>`;
+        <button class="delete-btn">X</i></button></div>`;
       li.dataset.status = task.status;
       if (task.status === 'finished') {
         li.classList.add('completed');
