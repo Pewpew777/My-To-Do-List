@@ -6,12 +6,12 @@ body {
   animation: gradientAnimation 15s ease infinite;
   filter: grayscale(30%) brightness(90%); */
   
-    /* Set up the fixed background image */
-    background-image: url(wesh.jpg); /* Replace 'your-image.jpg' with your actual image path */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Scale the background to cover the entire container */
-    background-attachment: fixed; /* Keep the background fixed during scrolling */
+
+    background-image: url(wesh.jpg); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
 
 }
   
