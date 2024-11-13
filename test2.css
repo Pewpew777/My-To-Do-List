@@ -166,7 +166,9 @@ align-items: center;
   color: #fff5f5;
 }
 @media (max-width:665px){
-
+body{
+  /* padding: 30px; */
+}
 
 h1{
   font-size: 28px;
